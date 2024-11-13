@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box" id="loginBox">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Logo Google">
+            <h1>Connexion</h1>
+            <form id="loginForm">
+                <div class="input-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Adresse e-mail</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="password" required>
+                    <label for="password">Mot de passe</label>
+                </div>
+                <button type="submit">Suivant</button>
+            </form>
+            <p class="error-message" id="errorMessage" style="display: none;">Une erreur est survenue, réessayez plus tard.</p>
+        </div>
+        <footer class="footer-text">
+            <p>Conditions d'utilisation</p>
+            <span> • </span>
+            <p>Confidentialité</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
